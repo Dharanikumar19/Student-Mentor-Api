@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const mongodb = require("mongodb");
 const mongoClient = require('mongodb');
-const URL = "mongodb://localhost:27017/student-mentor"
+const URL = "mongodb+srv://student-mentor:student-mentor@cluster0.dou6f.mongodb.net?retryWrites=true&w=majority"
   
 const app = express();
 
